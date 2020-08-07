@@ -1,0 +1,33 @@
+{
+  "name": "ABSA_Sweeps",
+  "description": "ABSA Sweeps module in ABSA Sweeps & Bill Payments process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.5.4]",
+    "UiPath.Mail.Activities": "[1.4.1]",
+    "UiPath.System.Activities": "[19.4.1]",
+    "UiPath.UIAutomation.Activities": "[19.4.2]",
+    "UiPathTeam.Activities": "1.0.1"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.4.4.0",
+  "projectVersion": "1.0.13",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "webServices": []
+}
